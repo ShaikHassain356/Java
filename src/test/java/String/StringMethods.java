@@ -1,5 +1,8 @@
 package String;
 
+import javax.sound.midi.Soundbank;
+import java.util.Arrays;
+
 public class StringMethods {
     public static void main(String[] args) {
         String s="Hassain";
@@ -53,5 +56,61 @@ public class StringMethods {
         String c2="hassain";
         System.out.println(c1.equals(c2));
         System.out.println(c1.equalsIgnoreCase(c2));// this will ignore the case sensitive
+
+        //7) replace() -- used to replace single or sequential of characters
+
+        String d="Hassain";
+        String e="Hello welcome to the selenium, u will learn selenium here";
+        System.out.println(d.replace('a','c'));
+        System.out.println(e.replace("selenium","java"));
+
+        //8) substring() is used to capture the particular substring
+
+        String f="Hassainshaik";
+        //here staring index starts from 0 and ending index from 1
+        System.out.println(f.substring(0,5));
+        //9) toUpperCase() and toLowerCase() used to convert whole string into upper abd lower case
+
+        String k="HassainShaik";
+        System.out.println(k.toUpperCase());
+        System.out.println(k.toLowerCase());
+
+        //10)split() this will split the string into multiple parts based on delimeter
+        String l="hassainshaik347@gmail.com";
+        String l1[]= l.split("@");
+        System.out.println(Arrays.toString(l1));
+        System.out.println(l1[0]);
+
+        String amount = "$20,36,36.00";
+        //reuired output 20363600
+
+
+        String amount1=amount.replace("$","");
+        String amount2=amount1.replace(",","");
+        String amount3=amount2.replace(".","");
+        System.out.println(amount3);
+
+        String m="abc,123@gmail";
+         String m1[]= m.split(",");
+         String m2[]= m1[1].split("@");
+        System.out.println(Arrays.toString(m1));
+        System.out.println(Arrays.toString(m2));
+
+        String n="abc 123";
+        String n1[]= n.split(" ");
+        System.out.println(Arrays.toString(n1));
+
+        String o= "Hassain Shaik";
+        //we need to check whether hassain is part of o string
+        String o1= o.replace("H","h");
+        System.out.println(o1.contains("hassain"));
+
+        String g= "Hassain Shaik";
+        //we need to check whether hassain is part of o string
+        String g1= g.toLowerCase();
+        System.out.println(g1.contains("hassain"));
+
+
+
     }
 }
