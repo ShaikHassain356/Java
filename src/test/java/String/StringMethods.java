@@ -37,7 +37,7 @@ public class StringMethods {
         System.out.println(aftervalue);
         System.out.println(a.charAt(6));
 
-        //5)contains() finds whether a particular string is a part of main string or not
+        //5)contains() finds whether a particular string is a part of MainMethodOverloading string or not
         //this always returns a boolean value
 
         String a1="Hassain";
