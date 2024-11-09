@@ -15,7 +15,7 @@ public class Employee {
         System.out.println(empsal);
     }
 
-    /*public static void main(String[] args) { //main method, execution always starts from main method
+    /*public static void MainMethodOverloading(String[] args) { //MainMethodOverloading method, execution always starts from MainMethodOverloading method
         Employee emp1 = new Employee(); //Object1
         emp1.empid=123456;
         emp1.empname="Hassain";
