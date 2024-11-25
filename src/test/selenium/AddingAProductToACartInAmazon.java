@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class AddingAProductToACartInAmazon {
+public class  AddingAProductToACartInAmazon {
     public static void main(String[] args) {
         WebDriver driver =new ChromeDriver();
         driver.get("https://www.amazon.in/");

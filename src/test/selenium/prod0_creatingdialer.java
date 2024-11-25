@@ -14,9 +14,9 @@ public class prod0_creatingdialer {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://space-prod0.sprinklr.com/care/voice/settings/dialer-profiles");
-        driver.findElement(By.cssSelector("input[placeholder='Enter Email']")).sendKeys("shaik.hassain2+prod0@partner.sprinklr.com");
+        driver.findElement(By.cssSelector("input[placeholder='Enter Email']")).sendKeys("shaik.hassain1+prod0@partner.sprinklr.com");
         driver.findElement(By.cssSelector("button[type='submit']")).click();
-        driver.findElement(By.cssSelector("input[placeholder='Enter Password']")).sendKeys("Sprinklr@654321");
+        driver.findElement(By.cssSelector("input[placeholder='Enter Password']")).sendKeys("Sprinklr@987654321");
         driver.findElement(By.xpath("//button[normalize-space()='Log in']")).click();
         Thread.sleep(10000);
         driver.findElement(By.cssSelector("div[class='items-center w-full justify-end gap-2 flex'] div[class='shrink-0'] div button[type='button']")).click();

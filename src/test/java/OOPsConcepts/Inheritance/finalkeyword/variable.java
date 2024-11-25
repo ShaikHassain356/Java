@@ -1,5 +1,5 @@
 package OOPsConcepts.Inheritance.finalkeyword;
-
+/*
 
 class nov13{
     final int i =100;
@@ -13,3 +13,4 @@ public class variable {
 
     }
 }
+*/

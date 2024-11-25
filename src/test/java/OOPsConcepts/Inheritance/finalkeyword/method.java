@@ -1,6 +1,6 @@
 package OOPsConcepts.Inheritance.finalkeyword;
 
-class Test1{
+/*class Test1{
     final void m()
     {
         System.out.println("this is the method from class Test1");
@@ -19,3 +19,5 @@ public class method {
 
     }
 }
+*/
+
