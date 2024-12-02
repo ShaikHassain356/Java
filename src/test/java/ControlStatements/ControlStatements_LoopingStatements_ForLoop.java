@@ -1,6 +1,6 @@
 package ControlStatements;
 
-public class ControlStatements_ConditionalStatements_ForLoop {
+public class ControlStatements_LoopingStatements_ForLoop {
     public static void main(String[] args) {
         // Examp1: to print numbers from 1-10
 

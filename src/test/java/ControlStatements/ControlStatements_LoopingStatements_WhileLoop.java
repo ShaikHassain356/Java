@@ -1,6 +1,6 @@
 package ControlStatements;
 
-public class ControlStatements_ConditionalStatements_WhileLoop {
+public class ControlStatements_LoopingStatements_WhileLoop {
     public static void main(String[] args) {
         //Examp1: to print 0-10 numbers using while loop
         /*int i=0;
