@@ -1,6 +1,6 @@
 package ControlStatements;
 
-public class ControlStatements_ConditionalStatements_WhileLoopwithoutCondition {
+public class ControlStatements_LoopingStatements_WhileLoopwithoutCondition {
     public static void main(String[] args) {
         int i =1;
         while (true)
