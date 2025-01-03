@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="hassainsuite">
+    <listeners>
+        <!-- Listener for emailable report -->
+        <listener class-name="org.testng.reporters.EmailableReporter2" />
+        <!-- Listener for index.html -->
+        <listener class-name="org.testng.reporters.SuiteHTMLReporter" />
+    </listeners>
+    <test name="mytest">
+        <classes>
+            <class name="java2.TestNG.AllAnnotations">
+            </class>
+        </classes>
+    </test>
+
+</suite>
