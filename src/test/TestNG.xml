@@ -1,0 +1,21 @@
+<suite name="TestNG Suite">
+    <listeners>
+        <!-- Listener for emailable report -->
+        <listener class-name="org.testng.reporters.EmailableReporter2" />
+        <!-- Listener for index.html -->
+        <listener class-name="org.testng.reporters.SuiteHTMLReporter" />
+    </listeners>
+
+    <test name="OrangeHRM Test">
+        <classes>
+            <class name="java2.TestNG.orangehrmlogin">
+                <methods>
+                    <include name="openapp" />
+                    <include name="logotest" />
+                    <include name="loginapp" />
+                    <include name="closeapp" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
