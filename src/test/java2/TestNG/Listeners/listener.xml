@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hassain_listener">
+    <listeners>
+        <listener class-name="java2.TestNG.Listeners.ExtentReportManager"/>
+    </listeners>
+    <test name="listener">
+        <classes>
+            <class name="java2.TestNG.PageObjectModel.LoginTest"/>
+        </classes>
+    </test>
+</suite>
